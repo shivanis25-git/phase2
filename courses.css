@@ -1,0 +1,173 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #e6f7ff, #f9ffff);
+  color: #333;
+}
+
+
+header {
+  background: #0077b6;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+main {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+section {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 80%;
+  max-width: 900px;
+  height: 40rem;
+}
+
+h2 {
+  color: #0077b6;
+  font-size: 26px;
+  border-bottom: 3px solid #90e0ef;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  height: 80%;
+}
+
+th, td {
+  text-align: center;
+  padding: 14px 10px;
+  border-bottom: 1px solid hsl(0, 83%, 5%);
+}
+
+th {
+  background: #90e0ef;
+  color: #023e8a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: auto;
+}
+
+tr:nth-child(even) {
+  background: #f6f6f6;
+}
+
+tr:hover {
+  background: #e0f7fa;
+  transition: 0.3s;
+}
+
+
+td:nth-child(4) {
+  font-weight: bold;
+}
+
+td:nth-child(4):contains("Completed") {
+  color: green;
+}
+td:nth-child(4):contains("Ongoing") {
+  color: orange;
+}
+td:nth-child(4):contains("Upcoming") {
+  color: #0077b6;
+}
+
+
+
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #caf0f8, #edf6f9);
+  color: #333;
+}
+
+@media (max-width: 600px) {
+
+  main {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  section {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  
+  table {
+    font-size: 14px;
+    min-width: 600px;
+  }
+
+  
+  section {
+    overflow-x: auto;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+
